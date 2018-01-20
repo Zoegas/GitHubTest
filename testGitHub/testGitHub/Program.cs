@@ -10,6 +10,16 @@ namespace testGitHub
     {
         private String name;
         private int lenght;
+        private String adress;
+
+        public void SetAdress(String NewAdress) {
+            adress = NewAdress;
+}                              
+        public String GetAdress() {
+            return adress;
+}
+
+
 
         public void SetName(String NewName)
         {
@@ -36,8 +46,9 @@ namespace testGitHub
 
             p.SetLenght(190);
             p.SetName("Viktor");
+            p.SetAdress("Lund");
 
-            Console.WriteLine(p.GetName() + " " + p.GetLenght());
+            Console.WriteLine(p.GetName() + " " + p.GetLenght() + " " + p.GetAdress());
             Console.Read();
         }
     }
