@@ -11,6 +11,7 @@ namespace testGitHub
         private String name;
         private int lenght;
         private String adress;
+        private int age;
 
         public void SetAdress(String NewAdress) {
             adress = NewAdress;
@@ -46,7 +47,8 @@ namespace testGitHub
 
             p.SetLenght(190);
             p.SetName("Viktor");
-            p.SetAdress("Lund");
+            p.SetAdress("Lund eller malmö");
+
 
             Console.WriteLine(p.GetName() + " " + p.GetLenght() + " " + p.GetAdress());
             Console.Read();
