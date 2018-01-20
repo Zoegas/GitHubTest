@@ -12,7 +12,7 @@ namespace testGitHub
         private int lenght;
         private String adress;
         private int age;
-
+        private int hej;
         public void SetAdress(String NewAdress) {
             adress = NewAdress;
 }                              
