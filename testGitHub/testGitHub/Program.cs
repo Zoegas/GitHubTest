@@ -52,6 +52,12 @@ namespace testGitHub
 
             Console.WriteLine(p.GetName() + " " + p.GetLenght() + " " + p.GetAdress());
             Console.Read();
+
+            Person zoggeÄrFulOchTråkig = new Person();
+
+            zoggeÄrFulOchTråkig.SetName("Zoegas");
+            zoggeÄrFulOchTråkig.SetLenght(130);
+            zoggeÄrFulOchTråkig.SetAdress("hejhopp");
         }
     }
 }
