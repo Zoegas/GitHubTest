@@ -19,7 +19,7 @@ namespace testGitHub
         public String GetAdress() {
             return adress;
 }
-        //test
+        //testtt
 
 
         public void SetName(String NewName)
